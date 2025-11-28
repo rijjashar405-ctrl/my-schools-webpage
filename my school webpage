@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<div>
+<h1>The Educators</h1>
+<p>Temple Road, Lahore</p>
+</div>
+</header>
+
+
+<div class="container">
+
+
+<h2>Welcome to The Educators</h2>
+<p><strong>Total Students:</strong> 1,000</p>
+
+
+<h2>Streams Offered</h2>
+<ul>
+<li>Pre-Medical</li>
+<li>Pre-Engineering</li>
+<li>Computer Science (ICS)</li>
+<li>Commerce (I.Com)</li>
+<li>Arts / Humanities (FA)</li>
+<li>Science</li>
+<li>Computer Science</li>
+<li>Health Science</li>
+<li>Agriculture</li>
+<li>Fashion Designing</li>
+<li>Arts / Humanities</li>
+</ul>
+
+
+<h2>Educational Boards</h2>
+<ul>
+<li>Punjab Board</li>
+<li>Sindh Board</li>
+<li>KPK Board</li>
+<li>Balochistan Board</li>
+<li>Federal Board</li>
+</ul>
+
+
+<h2>School Building</h2>
+<img class="school-img" src="school-image.jpg" alt="The Educators School Image">
+
+
+</div>
+
+
+<footer>
+© 2025 The Educators — All Rights Reserved.
+</footer>
+
+
+</body>
+</html>
