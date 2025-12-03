@@ -1,55 +1,220 @@
 <!DOCTYPE html>
-<div>
-<h1>The Educators</h1>
-<p>Temple Road, Lahore</p>
-</div>
-</header>
+<html lang="en">
 
+<head>
+    <meta charset="UTF-8">
+    <title>The Educators School</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            background: #f0f8ff;
+        }
 
-<div class="container">
+        /* Header */
+        header {
+            background: linear-gradient(90deg, #0a7f3b, #34d399);
+            padding: 25px;
+            text-align: center;
+            color: white;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        }
 
+        header h1 {
+            margin: 0;
+            font-size: 36px;
+        }
 
-<h2>Welcome to The Educators</h2>
-<p><strong>Total Students:</strong> 1,000</p>
+        header p {
+            font-size: 18px;
+        }
 
+        /* Navigation Bar */
+        nav {
+            background: #10b981;
+            overflow: hidden;
+        }
 
-<h2>Streams Offered</h2>
-<ul>
-<li>Pre-Medical</li>
-<li>Pre-Engineering</li>
-<li>Computer Science (ICS)</li>
-<li>Commerce (I.Com)</li>
-<li>Arts / Humanities (FA)</li>
-<li>Science</li>
-<li>Computer Science</li>
-<li>Health Science</li>
-<li>Agriculture</li>
-<li>Fashion Designing</li>
-<li>Arts / Humanities</li>
-</ul>
+        nav a {
+            float: left;
+            display: block;
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
 
+        nav a:hover {
+            background: #34d399;
+            color: #000;
+        }
 
-<h2>Educational Boards</h2>
-<ul>
-<li>Punjab Board</li>
-<li>Sindh Board</li>
-<li>KPK Board</li>
-<li>Balochistan Board</li>
-<li>Federal Board</li>
-</ul>
+        /* Sections */
+        section {
+            padding: 30px;
+            background: white;
+            margin: 20px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s;
+        }
 
+        section:hover {
+            transform: scale(1.02);
+        }
 
-<h2>School Building</h2>
-<img class="school-img" src="school-image.jpg" alt="The Educators School Image">
+        /* Headings */
+        section h2 {
+            color: #0a7f3b;
+            margin-bottom: 15px;
+        }
 
+        /* Images */
+        img {
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
 
-</div>
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 15px;
+            background: linear-gradient(90deg, #0a7f3b, #34d399);
+            color: white;
+            font-weight: bold;
+        }
 
+        /* Gallery */
+        .gallery img {
+            width: 220px;
+            margin: 10px;
+            border-radius: 15px;
+            transition: transform 0.3s;
+        }
 
-<footer>
-© 2025 The Educators — All Rights Reserved.
-</footer>
+        .gallery img:hover {
+            transform: scale(1.1);
+        }
 
+        /* Audio & Video */
+        audio,
+        video,
+        iframe {
+            width: 100%;
+            max-width: 600px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Responsive YouTube Embed */
+        .video-container {
+            position: relative;
+            width: 100%;
+            max-width: 600px;
+            margin: 0 auto;
+            padding-bottom: 56.25%;
+            /* 16:9 ratio */
+            height: 0;
+            overflow: hidden;
+        }
+
+        .video-container iframe {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>📚 The Educators School</h1>
+        <p>Shaping the Future With Quality Education</p>
+    </header>
+
+    <nav>
+        <a href="#logo">Logo</a>
+        <a href="#building">Building</a>
+        <a href="#anthem">Anthem</a>
+        <a href="#video">Introduction</a>
+        <a href="#activity">Students Activity</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#about">About Us</a>
+        <a href="#admissions">Admissions</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="logo">
+        <h2>School Logo</h2>
+        <img src="https://crystalpng.com/wp-content/uploads/2025/10/The-Educators-Logo.png" width="250"
+            alt="School Logo">
+    </section>
+
+    <section id="building">
+        <h2>School Building</h2>
+        <img src="https://educatorsryk.edu.pk/assets/images/about/tab1.jpg" width="500" alt="School Building">
+    </section>
+
+    <section id="anthem">
+        <h2>The Educators School Anthem</h2>
+        <audio controls>
+            <source src="https://www.learningcontainer.com/wp-content/uploads/2020/02/Kalimba.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+    </section>
+
+    <section id="video">
+        <h2>The Educators Introduction Video</h2>
+        <div class="video-container">
+            <iframe src="https://www.youtube.com/embed/K5JmI712s-g" title="The Educators Intro Video" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+    </section>
+
+    <section id="activity">
+        <h2>The Educators Students Activity</h2>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiC6ZtUvoiE6sQaexN8-HZovdqmUTU6kPLng&s"
+            width="300" alt="Students Activity">
+    </section>
+
+    <section id="gallery">
+        <h2>📸 Photo Gallery</h2>
+        <div class="gallery">
+            <img src="https://educatorsryk.edu.pk/assets/images/about/tab1.jpg" alt="Gallery 1">
+            <img src="https://crystalpng.com/wp-content/uploads/2025/10/The-Educators-Logo.png" alt="Gallery 2">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSiC6ZtUvoiE6sQaexN8-HZovdqmUTU6kPLng&s"
+                alt="Gallery 3">
+            <img src="https://educatorsryk.edu.pk/assets/images/about/tab1.jpg" alt="Gallery 4">
+        </div>
+    </section>
+
+    <section id="about">
+        <h2>About Us</h2>
+        <p>The Educators is committed to providing high-quality education, a safe learning environment,
+            and strong moral values to prepare students for the future.</p>
+    </section>
+
+    <section id="admissions">
+        <h2>Admissions</h2>
+        <p>Admissions are open for Playgroup to Matric. Visit our campus or contact us for details.</p>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p><strong>School Name:</strong> The Educators</p>
+        <p><strong>Address:</strong> Temple Road</p>
+        <p><strong>Phone:</strong> 0000-0000000</p>
+        <p><strong>Email:</strong> info@educators.com</p>
+    </section>
+
+    <footer>
+        © 2025 The Educators School — All Rights Reserved
+    </footer>
 
 </body>
+
 </html>
